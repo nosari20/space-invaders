@@ -1,4 +1,4 @@
-# ts starter
+# space-invaders
 
 ## Installation
 ```
@@ -25,5 +25,3 @@ $ npm run server
 ### watch (TS + HTML + SCSS)
 ```
 $ npm run wacth
-```
-
