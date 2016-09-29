@@ -1,0 +1,41 @@
+{
+  "name": "ts-starter",
+  "version": "1.0.0",
+  "description": "TypeScript Starter",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "gulp test",
+    "gulp": "gulp",
+    "typings": "typings",
+    "build": "gulp build",
+    "build:ts": "gulp build:ts",
+    "build:scss": "gulp build:scss",
+    "build:html": "gulp build:html",
+    "server": "gulp server",
+    "watch": "gulp watch",
+    "start": "concurrently \"npm run server\" \"npm run watch\" ",
+    "postinstall": "typings install dt~chai dt~mocha dt~orchestrator github:photonstorm/phaser/typescript/typings.json dt~require dt~q --global  --save"
+  },
+  "author": "nosari20",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "chai": "^3.5.0",
+    "concurrently": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-live-server": "0.0.30",
+    "gulp-mocha": "^3.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-typescript": "^3.0.1",
+    "mocha": "^3.1.0",
+    "opn": "^4.0.2",
+    "tsify": "^1.0.7",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "phaser": "^2.6.2"
+  }
+}

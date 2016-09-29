@@ -1,0 +1,7 @@
+node_modules
+build
+.idea 
+spec/compiled
+npm-debug.log
+typings
+typings.json
